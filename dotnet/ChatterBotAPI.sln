@@ -1,30 +1,77 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatterBotAPI", "ChatterBotAPI\ChatterBotAPI.csproj", "{2E624962-F155-432C-A90A-E1CE75DEE9EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatterBotAPITest", "ChatterBotAPITest\ChatterBotAPITest.csproj", "{DA59F247-C17B-4A92-BB03-CB458C6916F0}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ChatterBotAPITestVB", "ChatterBotAPITestVB\ChatterBotAPITestVB.vbproj", "{4D5C5614-9C76-4464-AB6E-A4349784F123}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatterBotModel", "ChatterBotModel\ChatterBotModel.csproj", "{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Debug|x86.Build.0 = Debug|Any CPU
 		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D5C5614-9C76-4464-AB6E-A4349784F123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D5C5614-9C76-4464-AB6E-A4349784F123}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D5C5614-9C76-4464-AB6E-A4349784F123}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D5C5614-9C76-4464-AB6E-A4349784F123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|ARM.Build.0 = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|x64.Build.0 = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E624962-F155-432C-A90A-E1CE75DEE9EA}.Release|x86.Build.0 = Release|Any CPU
 		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Debug|x86.Build.0 = Debug|Any CPU
 		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Release|ARM.Build.0 = Release|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Release|x64.Build.0 = Release|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA59F247-C17B-4A92-BB03-CB458C6916F0}.Release|x86.Build.0 = Release|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Debug|ARM.Build.0 = Debug|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Debug|x64.Build.0 = Debug|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Debug|x86.Build.0 = Debug|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Release|ARM.Build.0 = Release|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Release|x64.ActiveCfg = Release|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Release|x64.Build.0 = Release|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Release|x86.ActiveCfg = Release|Any CPU
+		{3DA22C21-4E25-40EA-90DE-8BF5A2486BDC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ChatterBotAPITestVB\ChatterBotAPITestVB.vbproj

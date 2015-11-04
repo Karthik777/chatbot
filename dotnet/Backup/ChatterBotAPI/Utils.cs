@@ -80,24 +80,6 @@ namespace ChatterBotAPI
             return container.GetCookies(request.RequestUri);
         }
 
-        public static HttpWebResponse Get(string url)
-        {
-           
-            var request = (HttpWebRequest)WebRequest.Create(url);
-            request.Method = "GET";
-            request.Headers.Add("UserAgent", "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0;");
-            request.ContentType = "text/html";
-           
-
-            var response = (HttpWebResponse)request.GetResponse();
-            using (var responseStreamReader = new StreamReader(response.GetResponseStream()))
-            {
-                responseStreamReader.ReadToEnd();
-            }
-
-            return response;
-        }
-
         public static string Post(string url, IDictionary<string, string> parameters, CookieCollection cookies)
         {
             var postData = ParametersToWWWFormURLEncoded(parameters);

@@ -1,0 +1,8 @@
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotModel\bin\Debug\ChatterBotModel.dll
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotModel\bin\Debug\ChatterBotModel.pdb
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotModel\bin\Debug\ChatterBotAPI.dll
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotModel\bin\Debug\Microsoft.Speech.dll
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotModel\bin\Debug\ChatterBotAPI.pdb
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotModel\obj\Debug\ChatterBotModel.csprojResolveAssemblyReference.cache
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotModel\obj\Debug\ChatterBotModel.dll
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotModel\obj\Debug\ChatterBotModel.pdb

@@ -1,0 +1,4 @@
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotAPI\bin\Debug\ChatterBotAPI.dll
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotAPI\bin\Debug\ChatterBotAPI.pdb
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotAPI\obj\Debug\ChatterBotAPI.dll
+C:\PitchBlack\chatterbot\chatter-bot-api\dotnet\ChatterBotAPI\obj\Debug\ChatterBotAPI.pdb
