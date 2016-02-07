@@ -1,6 +1,7 @@
 import re
 import sys
 import hashlib
+import json
 
 if sys.version_info >= (3, 0):
     from urllib.request import build_opener, HTTPCookieProcessor, urlopen
@@ -36,6 +37,11 @@ import xml.dom.minidom
 #################################################
 # API
 #################################################
+
+def CreateChatbotSession(botType):
+    factory = ChatterBotFactory()
+    bot = factory.create(botType)
+    return bot.create_session()
 
 class ChatterBotType:
 
@@ -162,7 +168,7 @@ class _PandorabotsSession(ChatterBotSession):
 
     def think_thought(self, thought):
         self.vars['input'] = thought.text
-        data = urlencode(self.vars)
+        data = str.encode(urlencode(self.vars))
         url_response = urlopen('http://www.pandorabots.com/pandora/talk-xml', data)
         response = url_response.read()
         response_dom = xml.dom.minidom.parseString(response)

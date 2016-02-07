@@ -29,9 +29,9 @@ bot2session = bot2.create_session()
 s = 'Hi'
 while (1):
     
-    print 'bot1> ' + s
+    print('bot1> ' + s)
     
-    s = bot2session.think(s);
-    print 'bot2> ' + s
+    s = bot2session.think(s)
+    print('bot2> ' + s)
     
-    s = bot1session.think(s);
+    s = bot1session.think(s)
